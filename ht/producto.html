@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+	 <link rel="stylesheet" href="../css/style-product.css">
+    <script src="../js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+   <link rel="stylesheet" href="../css/sweetalert2.min.css">
+   <link rel="shortcut icon" href="../img/ruta3.ico" type="image/x-icon">
+
+    <title>RUTA TU ESTILO 
+        
+    </title>
+	
+	   
+</head>
+
+<body>
+    
+    <header>
+        <div class="container">
+		
+            <div class="row align-items-stretch justify-content-between">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+							
+                                <img src="../img/cart.svg" class="nav-link dropdown-toggle img-fluid" height="80px"
+                                    width="100px" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"></img>
+                                <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                                    <table id="lista-carrito" class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Producto</th>
+                                                <th>Detalle</th>
+                                                <th>Precio</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+                                    <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+                                    <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar Compra</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+			
+    </header>
+	
+	 <a href="../index.html">
+        <div class="logo"> </div>
+    </a>
+
+    <nav>
+                
+    </nav> 
+
+    <div class="row justify-content-center">
+        <div class="col-md-2 mb-2">
+            <a href="../index.html" class="btn btn-info btn-block">Inicio</a>
+        </div>
+
+        <div class="col-md-2 mb-2">
+            <a href="mision.html" class="btn btn-info btn-block">Acerca de</a>
+        </div>
+
+        <div class="col-md-2 mb-2">
+            <a href="producto.html" class="btn btn-info btn-block">Servicios</a>
+        </div>
+
+        <div class="col-md-2 mb-2">
+            <a href="contacto.html" class="btn btn-info btn-block">Contáctanos</a>
+        </div>
+    </div>
+
+    <main>
+	
+	    
+	    
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+            <h1 class="display-2 mt-5">Nuestros Productos</h1>
+            <p class="display-2 mt-1"></p>
+        </div>
+		
+				
+		 <div class="container" id="lista-productos">
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Taza Personalizada</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="../img/tuestilo4.PNG" height="200px" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">10</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Camiseta Personalizada</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="../img/tuestilo8.PNG" height="200px" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">10</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="2">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Taza Personalizada</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="../img/tuestilo5.PNG" height="200px" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">10</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="3">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-bold">Trajes de Bioseguridad</h4>
+                </div>
+                <div class="card-body">
+                    <img src="../img/tuestilo3.jpeg" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">20</span></h1>
+
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li></li>
+                        <li></li>
+                        <li>COLOR AZUL y MORADO</li>
+                        <li>Retiene fluidos externos</li>
+                    </ul>
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="4">Comprar</a>
+                
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-bold">Trajes de Bioseguridad</h4>
+                </div>
+                <div class="card-body">
+                    <img src="../img/traje.PNG" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">20</span></h1>
+
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li></li>
+                        <li>Fácil Manejo</li>
+                        <li>COLOR NEGRO y AZUL</li>
+                        <li>Retiene fluidos externos</li>
+                    </ul>
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="5">Comprar</a>
+                
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-bold">Trajes de Bioseguridad </h4>
+                </div>
+                <div class="card-body">
+                    <img src="../img/traje2.PNG" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">20</span></h1>
+
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li></li>
+                        <li>Fácil Manejo</li>
+                        <li>COLOR NEGRO y AZUL</li>
+                        <li>Retiene fluidos externos</li>
+                    </ul>
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="6">Comprar</a>
+                
+                </div>
+            </div>
+
+        </div>
+
+            </div>
+
+
+        </div>
+    </main>
+		
+			
+
+    <div  class="row justify-content-center">
+        <div class="col-md-2 ml-2">
+            <a href="../img/ficha.pdf" class="btn btn-info btn-block" target="_blank">Ficha Técnica</a> 
+        </div>
+    </div>
+
+                   
+                 
+
+    
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/sweetalert2.min.js"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="../js/pedido.js"></script>
+
+</body>
+
+</html>
